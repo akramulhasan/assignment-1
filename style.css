@@ -25,10 +25,18 @@ body{
     padding-top: 100px;
 }
 
-#hero p{
-    font-size: 20px;
+.left-text{
+    font-size: 18px;
     line-height: 32px;
-    color: #828282;
+}
+.right-padded{
+    padding: 10px 300px 0 0;
+}
+.subtitle{
+    color: #252525;
+    text-align: center;
+    padding: 0 600px;
+    line-height: 24.55px;
 }
 .half-width a{
     text-decoration: none;
@@ -61,8 +69,32 @@ body{
     color: #575757;
     padding-top: 100px;
 }
-#about p{
-    font-size: 18px;
-    line-height: 32px;
-    padding: 10px 280px 10px 0;
+
+
+/*Recipies Section*/
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: #575757;
+}
+h4{
+    font-size: 28px;
+    color: #18191F;
+}
+
+.items-wrapper{
+    width: 65%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.single-recipe-wrap{
+width: 30%;
+padding: 15px;
+box-shadow: 0px 0px 10px 0px #808080b5;
+border-radius: 25px;
+margin: 0 1.7%;
+}
+
+.single-recipe-wrap img{
+    width: 100%;
 }
