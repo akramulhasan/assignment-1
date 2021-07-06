@@ -56,9 +56,11 @@ body{
 
 /* About Section */
 
-#about{
+#about {
     background-image: url(images/shapes/7.png);
+    background-size: cover;
     padding-top: 50px;
+    background-repeat: no-repeat;
 }
 #about img{
     width: 50%;
@@ -130,6 +132,9 @@ margin: 0 1.7%;
 /*Bonus Section*/
 #bonus {
     padding-bottom: 50px;
+}
+.extra-margin{
+    padding: 70px 0px;
 }
 .single-bonus-wrap{
     width: 30%;
