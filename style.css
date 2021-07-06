@@ -50,7 +50,7 @@ body{
     margin-bottom: 50px;
 }
 #hero img{
-    width: 95%;
+    width: 80%;
     float: right;
 }
 
@@ -63,7 +63,7 @@ body{
     background-repeat: no-repeat;
 }
 #about img{
-    width: 50%;
+    width: 40%;
     float: right;
 }
 #about h2{
